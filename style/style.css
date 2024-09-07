@@ -1,0 +1,359 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+}
+
+.summer-sale-container {
+    background-color: #F9F6E2;
+    padding: 50px 0px;
+}
+
+.main-container{
+    max-width: 96%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.summer-sale-wraper {display: flex;justify-content: center;}
+
+.summer-sale-text {
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.summer-sale-img {
+    width: 45%;
+    text-align: center;
+}
+
+.summer-sale-img img {
+    width: 81%;
+}
+
+.summer-sale-text h3 {
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+}
+
+
+.summer-sale-text h1{
+    font-size: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin: 35px 0px 45px 0px;
+}
+
+.discount{
+    color: #E527B2;
+}
+
+.summer-sale-text h4 {
+    font-size: 1.3rem;
+}
+
+span.promo-code {
+    background-color: #E527B2;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+
+.products-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-products-main {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: flex-end;
+}
+
+.calculater-main {
+    width: 28%;
+}
+
+.product {
+    width: 27%;
+    /* border: 2px solid #ddd; */
+    padding: 18px 14px;
+    text-align: center;
+    box-shadow: 0px 0px 7px 0px #bdbdbd;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.product:hover{
+    cursor: pointer;
+    background-color: #fdfcfc;
+}
+
+.product-img {
+    width: 100%;
+    background-color: #F3F3F3;
+    padding: 13px 0px;
+    border-radius: 10px;
+}
+
+.rating-star {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.rating-star img {
+    width: 60%;
+}
+
+.product-img img {
+    width: 50%;
+}
+
+
+.product-text p {
+    color: #8F8F8F;
+    font-size: 1.1rem;
+}
+
+.product-text h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.products-container {
+    background-color: #F8F8F8;
+    padding: 90px 0px;
+}
+
+
+.all-products-wrapperH2{
+    margin-bottom: 44px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+}
+
+.three-products-contaier {
+    display: flex;
+    column-gap: 35px;
+}
+
+.all-products-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+}
+
+.product-imgTwo img{
+    padding: 10px 0px;
+    width: 56%;
+}
+
+.product-imgThree img {
+    width: 56%;
+    padding: 12px 0px;
+}
+
+.product-imgFour img {
+    width: 55%;
+    padding: 20px 0px;
+}
+
+.product-imgSix img {
+    width: 54%;
+    padding: 6px 0px;
+}
+
+.product-imgSeven img {
+    width: 58%;
+}
+
+.product-imgNine img {
+    width: 56%;
+    padding: 13px 0px;
+}
+
+.coupon-box h3{
+    font-family:sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 80%;
+}
+
+.calculation-container {
+    margin-top: 74px;
+}
+
+.coupon-box {
+    background-color: #FFFFFF;
+    padding: 26px 28px 26px 28px;
+    width: 72%;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.coupon-box input {
+    padding: 10px 13px;
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 54%;
+    outline-color: #ddd;
+}
+
+.coupon-box button {
+    padding: 11px 12px;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    background-color: #EEEEEE;
+    transform: translateX(-8px);
+    color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: 0.2s;
+}
+
+.coupon-box button:hover{
+    background-color: #ca229d;
+    cursor: pointer;
+}
+
+
+.product-lists ul {
+    list-style: none;
+}
+
+.product-lists ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+.amount-container {
+    margin: 20px 0px;
+}
+
+.product-lists {
+    padding-bottom: 15px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid #ddd;
+}
+
+.purchase-btn button {
+    transform: translateX(0px);
+    border-radius: 5px;
+    background-color: #E527B2;
+}
+
+.purchase-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount-container h3 {
+    font-size: 1.03rem;
+}
+
+.amount-container {
+    padding-bottom: 10px;
+}
+
+
+.product-text {
+    margin-bottom: 20px;
+}
+
+.buyNow-btn button {
+    padding: 9px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: #E527B2;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.buyNow-btn button:hover{
+    cursor: pointer;
+    background-color: #ca229d;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 639px) {
+    .summer-sale-wraper{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .summer-sale-text{
+        width: 100%;
+    }
+
+    .summer-sale-img{
+        width: 90%;
+    }
+
+    .summer-sale-img img{
+        width: 80%;
+    }
+
+    .products-top-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .calculater-main{
+        width: 100%;
+    }
+
+    .calculation-container{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .all-products-main{
+        width: 100%;
+    }
+
+    .three-products-contaier{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .product{
+        width: 85%;
+    }
+}
